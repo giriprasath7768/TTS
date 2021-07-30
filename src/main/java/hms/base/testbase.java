@@ -73,7 +73,7 @@ public class testbase {
 	//Explicit wait
 			public void ewait(WebElement el)
 			{
-				WebDriverWait wait=new WebDriverWait(driver, 50);
+				WebDriverWait wait=new WebDriverWait(driver, 70);
 				wait.until(ExpectedConditions.visibilityOf(el));
 				
 			}
